@@ -37,21 +37,21 @@ export default function NewsletterSection() {
           </div>
           <div className="bg-gray-100  rounded-md">
             <img
-              src="/Chair2.png"
+              src="/chair2.png"
               alt="Product 3"
               className="rounded-md w-full"
             />
           </div>
           <div className="bg-gray-100  rounded-md">
             <img
-              src="/Chair1.png"
+              src="/chair1.png"
               alt="Product 4"
               className="rounded-md w-full"
             />
           </div>
           <div className="bg-gray-100  rounded-md">
             <img
-              src="/Chair3.png"
+              src="/chair3.png"
               alt="Product 5"
               className="rounded-md w-full"
             />

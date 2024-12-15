@@ -51,12 +51,9 @@ export default function OurProduct() {
 
   return (
     <div className="mx-40 mb-16 ">
-      <Link
-        className="text-2xl font-semibold mb-6  flex justify-center"
-        href="/Products-Page"
-      >
+      <h1 className="text-2xl font-semibold mb-6  flex justify-center">
         Our Products
-      </Link>
+      </h1>
 
       <div className="grid grid-cols-4 gap-8">
         {products.map((product) => (

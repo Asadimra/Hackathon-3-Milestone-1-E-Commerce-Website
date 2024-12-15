@@ -21,7 +21,7 @@ export default function About() {
           </button>
         </div>
         <div>
-          <img className="w-[672px] h-[360px]" src="/Chair1.png" alt="" />
+          <img className="w-[672px] h-[360px]" src="/chair1.png" alt="" />
         </div>
       </div>
       <div className="flex justify-center mt-20 text-3xl font-semibold">

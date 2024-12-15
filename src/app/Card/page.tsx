@@ -9,7 +9,7 @@ export default function Card() {
           <h1 className="font-medium text-xl mt-9">Bag</h1>
           <div className=" my-5 flex ">
             <div className="">
-              <img className="w-[200px]" src="/Chair3.png" alt="" />
+              <img className="w-[200px]" src="/chair3.png" alt="" />
             </div>
             <div className=" ml-6">
               <div className="flex ">

@@ -1,10 +1,10 @@
 export default function HotCategory() {
   const images = [
     "/HotCategory1.png",
-    "/HotCategory2.png",
-    "/HotCategory3.png",
+    "/Hotcategory2.png",
+    "/Hotcategory3.png",
     "/HotCategory4.png",
-    "/HotCategory5.png",
+    "/Hotcategory5.png",
   ];
 
   return (

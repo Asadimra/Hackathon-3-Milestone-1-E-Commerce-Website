@@ -40,7 +40,9 @@ export default function Header(){
           <ol className="gap-7 flex text-[#636270]">
             <li className="text-[#007580] ">Home</li>
             <li>Shop</li>
-            <li>Product</li>
+          <Link href="/Products-Page">
+            <li className="hover:text-teal-600">Product</li>
+            </Link>
             <li>Pages</li>
             <Link href="/About">
               <li className="hover:text-teal-600">About</li>
