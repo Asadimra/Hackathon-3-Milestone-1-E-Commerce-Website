@@ -38,7 +38,8 @@ export default function Header(){
       <div className="h-[74px] flex justify-between bg-white   py-[20px] px-40  text-black">
         <div>
           <ol className="gap-7 flex text-[#636270]">
-            <li className="text-[#007580] ">Home</li>
+            <Link href="/components/HeroSection">
+            <li className="text-[#007580] ">Home</li></Link>
             <li>Shop</li>
           <Link href="/Products-Page">
             <li className="hover:text-teal-600">Product</li>
