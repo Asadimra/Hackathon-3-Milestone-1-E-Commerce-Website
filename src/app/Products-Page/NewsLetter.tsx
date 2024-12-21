@@ -1,6 +1,6 @@
 export default function NewsletterSection() {
   return (
-    <div className="  bg-[#1E28320D] py-16 px-36 ">
+    <div className="  bg-[#1E28320D] py-16 lg:px-36 ">
       <div className="text-center ">
         <h2 className="text-3xl font-semibold mb-6">
           Or Subscribe To The Newsletter
@@ -20,43 +20,43 @@ export default function NewsletterSection() {
         <h2 className="text-3xl font-medium mb-12">
           Follow Products And Discounts On Instagram
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          <div className="bg-gray-100  rounded-md">
+        <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-3">
+          <div className="bg-gray-100 ml-2 md:ml-0  rounded-md">
             <img
               src="/WoodenChair.png"
               alt="Product 1"
               className="rounded-md w-full"
             />
           </div>
-          <div className="bg-gray-100  rounded-md">
+          <div className="bg-gray-100 mr-2 md:mr-0  rounded-md">
             <img
               src="/WingChair.png"
               alt="Product 2"
               className="rounded-md w-full"
             />
           </div>
-          <div className="bg-gray-100  rounded-md">
+          <div className="bg-gray-100 ml-2 md:ml-0  rounded-md">
             <img
               src="/chair2.png"
               alt="Product 3"
               className="rounded-md w-full"
             />
           </div>
-          <div className="bg-gray-100  rounded-md">
+          <div className="bg-gray-100 mr-2 md:mr-0  rounded-md">
             <img
               src="/chair1.png"
               alt="Product 4"
               className="rounded-md w-full"
             />
           </div>
-          <div className="bg-gray-100  rounded-md">
+          <div className="bg-gray-100 ml-2 md:ml-0 rounded-md">
             <img
               src="/chair3.png"
               alt="Product 5"
               className="rounded-md w-full"
             />
           </div>
-          <div className="bg-gray-100  rounded-md">
+          <div className="bg-gray-100 sm:mr-2 md:mr-0 rounded-md">
             <img
               src="/DeskChair.png"
               alt="Product 6"

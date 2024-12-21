@@ -6,9 +6,9 @@ import OurPopularProduct from "./OurPopularProduct";
 
 export default function About() {
   return (
-    <div className="mx-40 mt-20 mb-8">
-      <div className="flex justify-between gap-7">
-        <div className="w-[672px] h-[360px] px-14 text-white bg-[#007580]">
+    <div className="lg:mx-40 mx-3 mt-20 mb-8">
+      <div className="flex lg:justify-between flex-col md:flex-row  gap-7">
+        <div className=" md:w-[672px] md:h-[360px] px-4 lg:px-14 text-white bg-[#007580]">
           <h1 className="mt-10  font-bold text-2xl">About Us - Comforty</h1>
           <p className="pt-7 text-sm">
             At Comforty, we believe that the right chair can transform your
@@ -28,8 +28,8 @@ export default function About() {
         <h1>What makes our Brand Different</h1>
       </div>
       <div>
-        <div className="flex justify-between gap-3 mt-10 mb-20">
-          <div className="w-[234px] h-[180px] p-7 text-[#007580] bg-[#F9F9F9]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 mb-20">
+          <div className=" p-7 text-[#007580] bg-[#F9F9F9]">
             <span>
               {" "}
               <Truck />
@@ -39,7 +39,7 @@ export default function About() {
               Order before 3pm and get your order the next day as standar
             </p>
           </div>
-          <div className="w-[234px] h-[180px] p-7 text-[#007580] bg-[#F9F9F9]">
+          <div className=" p-7 text-[#007580] bg-[#F9F9F9]">
             <span>
               {" "}
               <BadgeCheck />
@@ -49,7 +49,7 @@ export default function About() {
               Handmade crafted goods made with real passion and craftmanship
             </p>
           </div>
-          <div className="w-[234px] h-[180px] p-7 text-[#007580] bg-[#F9F9F9]">
+          <div className=" p-7 text-[#007580] bg-[#F9F9F9]">
             <span>
               {" "}
               <CreditCard />
@@ -60,7 +60,7 @@ export default function About() {
               anywher
             </p>
           </div>
-          <div className="w-[234px] h-[180px] p-7 text-[#007580] bg-[#F9F9F9]">
+          <div className=" p-7 text-[#007580] bg-[#F9F9F9]">
             <span>
               <Sprout />
             </span>

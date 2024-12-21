@@ -22,9 +22,9 @@ export default function FeaturedProducts() {
   ];
 
   return (
-    <div className="mx-40 ">
+    <div className="mx-2 md:mx-8 lg:mx-40 ">
       <h2 className="text-2xl font-bold mb-6">Featured Products</h2>
-      <div className="grid grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {products.map((product) => (
           <div key={product.id} className=" rounded-lg  relative">
             {product.tag && (
@@ -36,7 +36,7 @@ export default function FeaturedProducts() {
                 {product.tag}
               </span>
             )}
-            <img src={product.image} alt={product.name} />
+            <img className="w-full" src={product.image} alt={product.name} />
             <h3
               className={`mt-4 text-sm font-medium  ${
                 product.id === 1 ? "text-green-500" : "text-gray-700"

@@ -5,18 +5,18 @@ import Feature from "./Feature";
 
 export default function ContactUs() {
   return (
-    <div className=" pt-16">
-      <div className="mx-44">
+    <div className="pt-7 lg:pt-16">
+      <div className="mx-3 lg:mx-44">
         <h2 className="text-4xl font-bold text-center mb-4">
           Get In Touch With Us
         </h2>
-        <p className="text-center mx-36 flex justify-center text-gray-600 mb-12">
+        <p className="text-center lg:mx-36 flex justify-center text-gray-600 mb-12">
           For More Information About Our Products & Services, Please Feel Free
           To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
           Hesitate!
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="space-y-8 w-[250px] h-[537px]">
+          <div className="space-y-8 lg:w-[250px] lg:h-[537px]">
             <div className="flex items-start">
               <div className=" mr-4">
                 {" "}

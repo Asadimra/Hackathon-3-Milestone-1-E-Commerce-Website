@@ -1,5 +1,4 @@
 import { ShoppingCart } from "lucide-react";
-import Link from "next/link";
 
 export default function OurProduct() {
   const products = [
@@ -50,12 +49,12 @@ export default function OurProduct() {
   ];
 
   return (
-    <div className="mx-40 mb-16 ">
+    <div className="mx-2 md:mx-8 lg:mx-40 mb-16 ">
       <h1 className="text-2xl font-semibold mb-6  flex justify-center">
         Our Products
       </h1>
 
-      <div className="grid grid-cols-4 gap-8">
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {products.map((product) => (
           <div key={product.id} className=" rounded-lg  relative">
             {product.tag && (
@@ -67,7 +66,7 @@ export default function OurProduct() {
                 {product.tag}
               </span>
             )}
-            <img src={product.image} alt={product.name} />
+            <img className="w-full" src={product.image} alt={product.name} />
             <h3
               className={`mt-4 text-sm font-medium  ${
                 product.id === 1 ? "text-green-500" : "text-gray-700"

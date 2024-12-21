@@ -13,16 +13,16 @@ export default function FeaturedProduct() {
   ];
 
   return (
-    <div className="mx-40 -mt-14 mb-16 ">
+    <div className=" mx-5 lg:mx-40 lg:-mt-14 lg:mb-16 ">
       <div className="flex justify-between mb-6">
-        <h2 className="text-2xl font-bold ">Featured Products</h2>
+        <h2 className="text-xl lg:text-2xl font-bold ">Featured Products</h2>
         <button className="font-bold underline underline-offset-8">
           View all
         </button>
       </div>
-      <div className="grid grid-cols-5 gap-6 ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3 ">
         {products.map((product) => (
-          <div key={product.id} className=" rounded-lg  relative">
+          <div key={product.id} className="mx-5 lg:mx-0 rounded-lg  lg:relative">
             <img src={product.image} alt={product.name} />
           <div className="flex items-center justify-between mt-4">
               <h3 className=" text-sm font-mediumg flex  'text-gray-700">

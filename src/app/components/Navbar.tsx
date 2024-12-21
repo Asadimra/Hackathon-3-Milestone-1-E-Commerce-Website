@@ -3,10 +3,10 @@ import { CircleAlert } from "lucide-react";
 import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
-export default function Header(){
+export default function Navbar(){
   return (
-    <div>
-      <div className="flex justify-between items-center h-[45px] px-40 bg-[#272343] text-white">
+    <div >
+      <div className="flex justify-between items-center h-[45px] px-4 lg:px-40 bg-[#272343] text-white">
         <div className="flex opacity-[70%]">
           <Check />
           <h1 className="px-2  ">Free shipping on all orders over $50</h1>
@@ -22,11 +22,12 @@ export default function Header(){
           <h3 className="px-1">Need Help</h3>
         </div>
       </div>
-      <div className="flex justify-between h-[84px]  bg-[#F0F2F3]  py-[20px] px-40  text-black">
+      <div className="flex justify-between h-[84px]  bg-[#F0F2F3]  py-[20px] px-4 lg:px-40  text-black">
         <div className="flex items-center">
           <img src="/LogoSofa.png" alt="" />
           <h1 className="font-medium text-2xl px-2 ">Comforty</h1>
         </div>
+        <Link href="/Card">
         <button className="  w-[130px] h-[44px] gap-3 text-black bg-white py-[11px] px-[16px] rounded-lg">
           <div className="flex items-center ">
             <ShoppingCart />
@@ -34,8 +35,9 @@ export default function Header(){
             <span className="rounded-full bg-[#007580] text-white px-2">2</span>
           </div>
         </button>
+        </Link>
       </div>
-      <div className="h-[74px] flex justify-between bg-white   py-[20px] px-40  text-black">
+      <div className="h-[74px] flex justify-between bg-white   py-[20px] px-4 lg:px-40  text-black">
         <div>
           <ol className="gap-7 flex text-[#636270]">
             <Link href="/components/HeroSection">

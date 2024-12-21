@@ -78,10 +78,10 @@ export default function ProductsPage() {
   ];
 
   return (
-    <div>
-      <div className="mx-40 ">
-        <h2 className="text-2xl font-semibold m-6">All Products</h2>
-        <div className="grid grid-cols-4 gap-8 mb-16">
+    <div className="">
+      <div className="m-3 md:mx-40   ">
+        <h2 className=" text-2xl font-semibold text-center lg:text-left md:m-6">All Products</h2>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {products.map((product) => (
             <div key={product.id} className="rounded-lg relative">
               {product.tag && (
@@ -95,10 +95,10 @@ export default function ProductsPage() {
               )}
              {product.id === 2 || product.id === 10 ? (
                 <Link href="/SingleProduct">
-                  <img src={product.image} alt={product.name} />
+                  <img  src={product.image} alt={product.name} />
                 </Link>
               ) : (
-                <img src={product.image} alt={product.name} />
+                <img  src={product.image} alt={product.name} />
               )}
               <h3
                 className={`mt-4 text-sm font-medium  ${

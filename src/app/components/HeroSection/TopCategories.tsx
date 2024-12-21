@@ -21,9 +21,9 @@ export default function TopCategories() {
   ];
 
   return (
-    <div className="mx-40 my-16">
+    <div className="mx-2 md:mx-8 lg:mx-40 my-16">
       <h2 className="text-2xl font-bold mb-6">Top Categories</h2>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {categories.map((category) => (
           <div
             key={category.id}
